@@ -42,3 +42,10 @@ set showmode
     set guifont=Monospace\ 12
     colorscheme quiet
  endif
+
+call plug#begin()
+
+" List your plugins here
+Plug 'rust-lang/rust.vim'
+
+call plug#end()
